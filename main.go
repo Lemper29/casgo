@@ -8,7 +8,6 @@ import (
 )
 
 func OnPeer(peer p2p.Peer) error {
-	peer.Close()
 	return nil
 }
 
